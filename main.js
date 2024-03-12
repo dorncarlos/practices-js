@@ -6,3 +6,5 @@ const fs = require('fs');
 firstArray.forEach(item=> item.event_description = final[item.event]);
 console.log(firstArray);
 
+const strArray = firstArray.toString();
+
